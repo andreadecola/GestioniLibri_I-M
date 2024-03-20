@@ -1,0 +1,5 @@
+C:\Users\utente\Desktop\SQL\Prestiti_Libri\Prestiti_Libri\obj\Debug\net8.0\Prestiti_Libri.csproj.AssemblyReference.cache
+C:\Users\utente\Desktop\SQL\Prestiti_Libri\Prestiti_Libri\obj\Debug\net8.0\Prestiti_Libri.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\utente\Desktop\SQL\Prestiti_Libri\Prestiti_Libri\obj\Debug\net8.0\Prestiti_Libri.AssemblyInfoInputs.cache
+C:\Users\utente\Desktop\SQL\Prestiti_Libri\Prestiti_Libri\obj\Debug\net8.0\Prestiti_Libri.AssemblyInfo.cs
+C:\Users\utente\Desktop\SQL\Prestiti_Libri\Prestiti_Libri\obj\Debug\net8.0\Prestiti_Libri.csproj.CoreCompileInputs.cache
