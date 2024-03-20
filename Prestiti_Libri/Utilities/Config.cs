@@ -32,12 +32,7 @@ namespace Prestiti_Libri.Utilities
                 builder.SetBasePath(Directory.GetCurrentDirectory());
                 builder.AddJsonFile("appSettings.json", optional: false, reloadOnChange: false);
 
-                IConfiguration configuration = builder.Build();
-#if DEBUG
                 connectionString = configuration.GetConnectionString("ServerLocale");
-#else
-                connectionString = configuration.GetConnectionString("ServerRemota");
-#endif
             }
 
             return connectionString;

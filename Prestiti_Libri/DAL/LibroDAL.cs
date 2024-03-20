@@ -20,24 +20,22 @@ namespace Prestiti_Libri.DAL
             return instanza;
         }
 
-
-        public bool Delete(Libro t)
+        public bool delete(Libro t)
         {
             throw new NotImplementedException();
         }
 
-        public bool Insert(Libro t)
+        public List<Libro> GetAll(Libro t)
         {
-            throw new NotSupportedException();
+            throw new NotImplementedException();
         }
 
-        public bool Update(Libro t)
+        public bool insert(Libro t)
         {
-
-            throw new NotSupportedException();
+            throw new NotImplementedException();
         }
 
-        public List<Libro> GetAll()
+        public bool update(Libro t)
         {
             throw new NotImplementedException();
         }

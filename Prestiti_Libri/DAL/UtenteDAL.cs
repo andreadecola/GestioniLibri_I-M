@@ -23,28 +23,50 @@ namespace Prestiti_Libri.DAL
             return instanza;
         }
 
-        public  bool Delete(Utente t)
+    
+
+        public bool insert(Utente t)
+        {
+            bool risultato = false;
+
+            using (SqlConnection connection = new SqlConnection(Config.getIstanza().GetConnectionString()))
+            {
+                SqlCommand cmd = new SqlCommand();
+                cmd.Connection = connection;
+                cmd.CommandText = "INSERT INTO Utente(nome,cognome,email) VALUES (@nome,@cognome,@email)";
+                cmd.Parameters.AddWithValue("@nome", t.Nome);
+                cmd.Parameters.AddWithValue("@cognome", t.Cognome);
+                cmd.Parameters.AddWithValue("@email", t.Email);
+
+                try
+                {
+                    connection.Open();
+
+                    risultato = true;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                finally
+                {
+                    connection.Close();
+                }
+                return risultato;
+            };
+        }
+
+        public List<Utente> GetAll(Utente t)
         {
             throw new NotImplementedException();
         }
 
-        public bool Insert(Utente t)
+        public bool delete(Utente t)
         {
-            bool risultato = false;
-
-            using (SqlConnection connection = new SqlConnection(Config.getIstanza().GetConnectionString())
-            {
-
-            }
-                
+            throw new NotImplementedException();
         }
 
-        public bool Update(Utente t) { 
-            
-            throw new NotSupportedException();
-        }
-
-        public List<Utente> GetAll()
+        public bool update(Utente t)
         {
             throw new NotImplementedException();
         }

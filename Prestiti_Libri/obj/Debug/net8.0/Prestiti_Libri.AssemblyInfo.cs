@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Prestiti_Libri")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f34d364ab0fe7b0d74c8c066213ecefe2ce66646")]
 [assembly: System.Reflection.AssemblyProductAttribute("Prestiti_Libri")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Prestiti_Libri")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

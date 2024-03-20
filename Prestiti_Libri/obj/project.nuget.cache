@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lhHNZYQJb0mz+k3AK/92HjnLYwf4Rz34matw79R93wLputyEZd0QdvgcLRXdZ1Z8K6Mjd51VZ6qhD9lg37uc7g==",
+  "dgSpecHash": "0EMJ2G/TsiW9uYevVl9/KYxz5HfEakrz6d7/LRMc5+Ldw9bEclj/uIqGkATJAiiNPWg03bPuTx/FPYlmBA0W4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\utente\\Desktop\\SQL\\Prestiti_Libri\\Prestiti_Libri\\Prestiti_Libri.csproj",
+  "projectFilePath": "C:\\Users\\utente\\Desktop\\Prestiti_Libri\\Prestiti_Libri\\Prestiti_Libri.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\utente\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\utente\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

@@ -9,6 +9,10 @@ namespace Prestiti_Libri.Models
 {
     internal class Utente  
     {
+        public Utente()
+        {
+        }
+
         public Utente(string? nome, string? cognome, string? email)
         {
             Nome = nome;
