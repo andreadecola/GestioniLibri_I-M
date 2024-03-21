@@ -1,3 +1,5 @@
+
+
 CREATE TABLE Utente(
 idUtente INT PRIMARY KEY IDENTITY (1,1),
 nome VARCHAR(250) NOT NULL ,
@@ -24,3 +26,5 @@ libroRIF INT NOT NULL
 FOREIGN KEY(utenteRIF) REFERENCES Utente(idUtente) ,
 FOREIGN KEY(libroRIF) REFERENCES Libro(idLibro) 
 );
+
+SELECT * FROM Utente;
